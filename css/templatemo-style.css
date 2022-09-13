@@ -387,7 +387,7 @@ a#logo {
   text-align:center;
   background: rgba(255, 255, 255, 0.1);
   color: rgba(255,255,255,1);
-  font-size:18px;
+  font-size:20px;
 }
 .social-icons li a:hover {
   color:#1e1e1e;
@@ -413,6 +413,7 @@ a#logo {
   width:100%;
   margin:0 auto 30px;
   color: #fff;
+  font-weight: 500;
 }
 .welcome-title {
   font-weight: 700;
@@ -643,7 +644,7 @@ a#logo {
   background-color: rgba(250,250,250,0.9)
 }
 .portfolio-item:hover .thumb-inner h4 {
-   margin-top: 20%;
+   margin-top: 1%;
   color: #1e1e1e;
   margin-bottom: 20px;
 }
@@ -778,8 +779,14 @@ textarea.form-control {
   margin-bottom: 30px;
   background: rgba(250,250,250,0.25);
   border-radius: 10px;
-  padding: 30px;
-  font-weight: 700;
+  padding: 15px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.contact-row.link:hover {
+  color:#1e1e1e;
+  background-color: #fff;
 }
 .contact-row i {
   width:55px;
@@ -788,6 +795,10 @@ textarea.form-control {
 }
 .contact-row i.fa-envelope {
   font-size: 25px;
+}
+
+.contact-row i.fa-github {
+  font-size: 35px;
 }
 
 /*==============================================
